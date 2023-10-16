@@ -1,0 +1,40 @@
+table, td {
+    border: hidden;
+    border-collapse: collapse;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {text-align: center;}
+.red {border-color: #FF9898;}
+.solid {border-style: solid;}
+
+.dropdown {
+    color: #EAECEE;
+    border: 2px solid #B0D3FF;
+    background-color: #5499C7;
+    width: 10em;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    background-color: #5499C7;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu unordered-list {
+    list-style: none;
+    display: block;
+    color: #EAECEE;
+    width: 10em;
+}
+
+.dropdown-menu unordered-list:hover {
+    background-color: #DCC262;
+}
